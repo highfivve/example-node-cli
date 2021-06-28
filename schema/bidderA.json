@@ -1,0 +1,22 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Rubicon Adapter Params",
+  "description": "A schema which validates params accepted by the BidderA adapter",
+  "type": "object",
+  "properties": {
+    "accountId": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "An ID which identifies the publisher's account"
+    },
+    "placementId": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "An ID which identifies the site selling the impression"
+    }
+  },
+  "required": [
+    "accountId",
+    "placementId"
+  ]
+}

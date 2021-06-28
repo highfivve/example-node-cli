@@ -1,0 +1,15 @@
+{
+  "id": "content_1.mobile",
+  "cur": "EUR",
+  "imp": [
+    {
+      "bidderA": {
+        "accountId": 5345,
+        "placementId": 1
+      },
+      "bidderB": {
+        "siteId": "822"
+      }
+    }
+  ]
+}
